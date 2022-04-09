@@ -1,0 +1,87 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #111;
+}
+.container{
+    margin: 100px auto;
+    height: auto;
+    width: 80%;
+    padding: 20px;    
+}
+h1{
+    color: white;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h1 span{
+    color: lime;
+}
+ #todo{
+   display: flex;
+   justify-content: center;
+   align-content: center;
+}
+#entry{
+    width: 500px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px;
+    font-size: 17px;
+    outline: none;
+    border: none;
+}
+#add_button{
+    width: 40px;
+    border-radius: 50%;
+    background-color: lime;
+    outline: none;
+    border: none;
+    margin-left: 3px;
+    color: white;
+}
+.output{
+    width: 80%;
+    height: auto;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+}
+.output_value{
+    width: 500px;
+    padding: 3px;
+    padding-bottom: -5px;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: #111;
+    font-size: 16px;
+}
+.edit_button{
+    width: 40px;
+    color: lime;
+    background-color: transparent;
+    font-size: 18px;
+    border: none;
+    padding: 10px;
+    margin-left: 0px;
+    margin-right: 10px;
+    cursor: pointer;
+    position: relative;
+    bottom: -10px;
+    
+}
+.trash_button{
+    width: 30px;
+    font-size: 18px;
+    color: red;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    bottom: -10px;
+}
