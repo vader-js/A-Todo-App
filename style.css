@@ -4,13 +4,19 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #111;
+    background-color:#111;
 }
 .container{
     margin: 100px auto;
     height: auto;
-    width: 80%;
+    width: auto;
     padding: 20px;    
+    text-align: center;
+}
+.container2{
+    width: 80vw;
+    margin: 0 auto;
+    text-align: center;
 }
 h1{
     color: white;
@@ -37,7 +43,7 @@ h1 span{
     border: none;
 }
 #add_button{
-    width: 40px;
+    min-width: 40px;
     border-radius: 50%;
     background-color: lime;
     outline: none;
@@ -46,37 +52,37 @@ h1 span{
     color: white;
 }
 .output{
-    width: 80%;
+    width: auto;
     height: auto;
     margin: 0px auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
 }
 .output_value{
-    width: 500px;
+    width: 65vw;
     padding: 3px;
     padding-bottom: -5px;
     border: none;
-    border-bottom: 2px solid white;
+    border-bottom: 1px solid white;
     background-color: #111;
     font-size: 16px;
+    color: white;
 }
 .edit_button{
-    width: 40px;
+    width: auto;
     color: lime;
     background-color: transparent;
     font-size: 18px;
     border: none;
     padding: 10px;
-    margin-left: 0px;
-    margin-right: 10px;
     cursor: pointer;
     position: relative;
     bottom: -10px;
     
 }
 .trash_button{
-    width: 30px;
+    width: auto;
     font-size: 18px;
     color: red;
     background-color: transparent;
